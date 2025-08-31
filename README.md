@@ -1,119 +1,93 @@
 ♻️ Smart Waste Classifier
 
-An AI-powered web app built with Streamlit that classifies waste into categories using a deep learning model. This project promotes smart waste management by assisting users in identifying whether waste is biodegradable, recyclable, or hazardous.
+An AI-powered application that classifies waste into Biodegradable, Recyclable, or Hazardous categories using a Deep Learning Model and an interactive Streamlit interface.
 
 🚀 Features
 
-🧠 Deep Learning Model trained to classify waste images
+🧠 Deep Learning model for image classification
 
-🎨 Interactive UI built with Streamlit
+📊 Training history visualization
 
-📊 Training history visualization (loss & accuracy curves)
+🌐 User-friendly Streamlit web app
 
-🖼️ Custom background and logo integration
+🖼️ Upload waste images for real-time prediction
 
-📦 Model (waste_classifier.h5) and training history (training_history.pkl) included
+📂 Organized project structure
 
-🌍 Deployable on Streamlit Cloud
+📱 Deployable on Streamlit Cloud
 
-📂 Repository Structure
+🛠️ Tech Stack
+
+Python
+
+TensorFlow / Keras
+
+Streamlit
+
+NumPy, Pandas, Matplotlib
+
+
+📂 Project Structure
 Smart-Waste-Classifier/
-│
-├─ app.py                       # Main Streamlit app
-├─ waste_classifier.h5          # Trained Keras/TensorFlow model (Git LFS)
-├─ training_history.pkl         # Training history for visualization
-├─ header_bg.jpg                # Header background image (Git LFS)
-├─ logo_icon.png                # App logo (Git LFS)
-├─ requirements.txt             # Python dependencies
-├─ README.md                    # Project documentation
-└─ .gitattributes               # Git LFS config for large files
+├── app.py                # Main Streamlit app
+├── waste_classifier.h5   # Trained deep learning model
+├── training_history.pkl  # Training history
+├── requirements.txt      # Dependencies
+├── images/               # UI assets (logo, header background, etc.)
+└── README.md             # Documentation
 
-🛠️ Installation
-# Clone the repo
+⚙️ Installation
+
+Clone this repository
+
 git clone https://github.com/Eshaofficial/Smart-Waste-Classifier.git
 cd Smart-Waste-Classifier
 
-# Create virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate   # On Linux/Mac
-venv\Scripts\activate      # On Windows
 
-# Install dependencies
+Install dependencies
+
 pip install -r requirements.txt
 
-▶️ Usage
+
+Run the Streamlit app
+
+streamlit run app.py
+
+📌 Usage
+
+Launch the app in your browser.
+
+Upload an image of waste material.
+
+The model classifies it into Biodegradable, Recyclable, or Hazardous.
+
+📊 Results
+
+Model trained with high accuracy on waste classification dataset.
+
+Visualized training and validation accuracy/loss using Matplotlib.
+
+☁️ Deployment
+
+You can deploy the app easily using Streamlit Cloud:
+
 streamlit run app.py
 
 
-Then open the URL shown in your terminal (default: http://localhost:8501/).
-
-☁️ Deploy on Streamlit Cloud
-
-Push your repo to GitHub (with large files tracked via Git LFS).
-
-Go to Streamlit Cloud
-.
-
-Select:
-
-Repo: Eshaofficial/Smart-Waste-Classifier
-
-Branch: main
-
-File path: app.py
-
-Click Deploy.
-
-Your app will be live within a few minutes!
-
-🧰 Requirements
-
-tensorflow / keras
-
-numpy
-
-pandas
-
-matplotlib
-
-streamlit
-
-Pillow
-
-pip install -r requirements.txt
-
-📊 Example Workflow
-
-Upload an image of waste.
-
-Model predicts the category (e.g., Biodegradable, Recyclable, Hazardous).
-
-Displays result with probability.
-
-Visualize training history to see how the model learned.
-
-🔮 Future Improvements
-
-Support for more waste categories
-
-Mobile app integration
-
-Real-time camera detection
-
-Dataset expansion for better accuracy
+🔗 (https://smart-waste-classifier-rlwnnlc6zwbyr2m6kgtxh3.streamlit.app/)
 
 🤝 Contributing
 
-Contributions are welcome! Please fork this repo and submit a pull request.
+Contributions are welcome!
+
+Fork the repo
+
+Create a feature branch
+
+Submit a pull request
 
 📜 License
 
 This project is licensed under the MIT License.
 
-✨ Acknowledgments
-
-TensorFlow/Keras for deep learning framework
-
-Streamlit for easy web deployment
-
-Git LFS for handling large files
+✨ Built with passion for a cleaner and smarter world!
