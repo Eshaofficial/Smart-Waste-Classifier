@@ -37,7 +37,7 @@ Smart-Waste-Classifier/
 └── README.md             # Documentation
 
 📂 Dataset  
-This project uses the [Waste Classification Dataset](https://www.kaggle.com/datasets/sumn2u/garbage-classification-v2).  
+This project uses the [Garbage Dataset](https://www.kaggle.com/datasets/sumn2u/garbage-classification-v2).  
 Download the dataset and place it inside the `dataset/` folder before running the app.  
 
 ⚙️ Installation
