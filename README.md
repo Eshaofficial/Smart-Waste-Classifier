@@ -1,6 +1,6 @@
 ♻️ Smart Waste Classifier
 
-An AI-powered application that classifies waste into Biodegradable, Recyclable, or Hazardous categories using a Deep Learning Model and an interactive Streamlit interface.
+An AI-powered application that classifies waste on the basis of Confidence Score into different categories using a Deep Learning Model and an interactive Streamlit interface.
 
 🚀 Features
 
@@ -63,7 +63,7 @@ Launch the app in your browser.
 
 Upload an image of waste material.
 
-The model classifies it into Biodegradable, Recyclable, or Hazardous.
+The model classifies it into various classes.
 
 📊 Results
 
